@@ -33,3 +33,18 @@ body,
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+.area {
+  font-size: 20px;
+  padding: 10px;
+  font-family: Poppins;
+  flex: 0.5;
+}
+
+.magic {
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}

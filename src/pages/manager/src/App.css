@@ -1,0 +1,24 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  flex: 1;
+}
+
+.area {
+  font-size: 20px;
+  padding: 10px;
+  font-family: Poppins;
+  flex: 0.5;
+  background-color: #2a2d3e;
+  color: white;
+}
+
+.magic {
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}

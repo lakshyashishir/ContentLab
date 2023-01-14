@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #212332;
+}
+
+.app {
+  background-color: #212332;
+  padding: 1em;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-around;
+  height: inherit;
+}
+
+.column {
+  background-color: #2a2d3e;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 1em;
+  padding: 1em;
+  border-radius: 10px;
+}
+
+.item {
+  padding: 1em;
+  margin: 1em;
+  width: 380px;
+  border-top: 4px solid green;
+  border-radius: 10px;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  color: black;
+}
+
+.columnHeading {
+  border-bottom: 2px solid lightgray;
+  background-color: green;
+}
+
+.addNew { 
+  padding: 1em;
+  margin: 1em;
+  width: 380px;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+  cursor: pointer;
+}
+
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+}
+
+.modalWrapper {
+  height: 30%;    
+  width: 30%;
+  background: white;
+  position: relative;
+  color: black;
+  border-radius: 10px;
+  /*z-index: 10;*/
+}
+
+.m1 {
+  margin: 1em;
+}
+
+.mtl2 {
+  margin-top: 2em;
+  margin-left: 2em;
+}
+
+.mt0 {
+  margin-top: 0px;
+}
+
+.m2 {
+  margin: 2em;
+  margin-top: 0.5em;
+}
+
+.p1 {
+  margin: 1em;
+}
+
+input {
+  width: 85%;
+  height: 2em;
+  border: 1px solid #212332;
+  border-radius: 10px;
+  color: black;
+  background-color: white;
+}
+
+.modalWrapper .actionButtons {
+  display: flex;
+  justify-content: flex;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.actionButtons > button {
+  width: 60px;
+  height: 30px;
+  border-radius: 3px;
+  cursor: pointer;
+  border: 1px solid gray;
+}
+
+.actionButtons .save {
+  background: rgb(131, 255, 131);
+  color: black;
+}
+
+.actionButtons .cancel {
+  background: white;
+  color: black;
+}
