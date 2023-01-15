@@ -16,6 +16,11 @@ function Column({ itemList, colTitle, color }) {
         setShowModal(false);
     };
 
+    const deleteItem = (task, column) => {
+        itemList.pop(task);
+        setShowModal(false);
+    };
+
     return (
         <div className="column">
             <header className="columnHeading"> 
@@ -46,6 +51,10 @@ function Column({ itemList, colTitle, color }) {
             </div>
             <button className="addNew" onClick={openAddNewTaskModal}>
                 + Add task
+            </button>
+
+            <button className="addNew" onClick={openAddNewTaskModal}>
+                - Remove Tast
             </button>
         </div>
     )

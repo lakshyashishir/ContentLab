@@ -1,7 +1,8 @@
+import Header from "../../components/Header";
 const Team = () => {
     return(
         <div>
-            <h1>Teams</h1>
+           <Header title="Teams" subtitle="Your Virtual Office" />            
         </div>
     )
 }

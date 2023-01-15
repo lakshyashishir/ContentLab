@@ -4,19 +4,19 @@ import Column from './components/Column/Column'
 const mockData = [
   {
     title: 'To DO',
-    tasks: ['Task 1', 'Task 2', 'Task 3', 'Task 4'],
+    tasks: ['Top 10 Gadets Video','Cen 105 Rant', 'Linkedin Weekly Post', 'Instagram Sponsor Mamaearth Story', 'Twitter thread on ChatGPT'],
     color: '#d88469',
     input: '',
   },
   {
     title: 'In progress',
-    tasks: ['Task 5', 'Task 6'],
+    tasks: ['Syntax Error Winner Template', 'Old KB Vlog - At 3 AM!'],
     color: '#c39757',
     input: '',
   },
   {
     title: 'Done',
-    tasks: ['Task 7', 'Task 8', 'Task 9'],
+    tasks: ['Linux Advantage Video', 'Top 10 Bruh Moments', 'Syntax Error Announcemnt post'],
     color: '#45904f',
     input: '',
   }

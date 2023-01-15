@@ -10,11 +10,9 @@ const Board = () => {
 
   return(
     <Box m="20px">
-      <Box display="flex" justifyContent="space-between" alignItems="center">
-      <Header title="Board" subtitle="Managing the Team Members" />
+      <Header title="Board" subtitle="View every progress" />
       <Board1 />
       </Box>
-    </Box>  
   )
 }
 

@@ -14,10 +14,12 @@ import SmartToyOutlinedIcon from '@mui/icons-material/SmartToyOutlined';
 import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
 import LogoutOutlinedIcon from '@mui/icons-material/LogoutOutlined';
 import GroupsOutlinedIcon from '@mui/icons-material/GroupsOutlined';
+import Openn from './opentab';
 
 const Item = ({ title, to, icon, selected, setSelected }) => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
+
   return (
     <MenuItem
       active={selected === title}
@@ -131,7 +133,7 @@ const Sidebar = () => {
               People
             </Typography>
             <Item
-              title="Manager"
+              title="Assitant"
               to="/manager"
               icon={<SmartToyOutlinedIcon />}
               selected={selected}
@@ -144,13 +146,15 @@ const Sidebar = () => {
               selected={selected}
               setSelected={setSelected}
             />
-            <Item
+            
+            <Item role="link" onClick={() => Openn('https://contentlab.discourse.group/')}
               title='Community'
-              to="/team"
+              to='/'
               icon={<GroupsOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
+            
 
             <Typography
               variant="h6"

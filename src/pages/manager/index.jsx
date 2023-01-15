@@ -10,7 +10,7 @@ const Manager = () => {
 
     return(
         <Box m="20px">
-        <Header title="MANAGER" subtitle="Managing the Team Members" />
+        <Header title="Virtual Assitant" subtitle="Available 24X7" />
         < Ok />
         </Box>
 

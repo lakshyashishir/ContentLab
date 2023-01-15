@@ -112,13 +112,13 @@ const Calendar = () => {
             initialEvents={[
               {
                 id: "12315",
-                title: "All-day event",
-                date: "2022-09-14",
+                title: "Syntax Error",
+                date: "2023-01-14",
               },
               {
                 id: "5123",
-                title: "Timed event",
-                date: "2022-09-28",
+                title: "Workshop",
+                date: "2023-01-11",
               },
             ]}
           />
