@@ -6,3 +6,11 @@
 <h2>Tech Stack</h2>
 
 <h3> React, Material UI, OpenAI API</h3>
+
+<h2>Usage</h2>
+
+<h3> git clone https://github.com/lakshyashishir/ContentLab</h3>
+
+<h3>npm install</h3>
+
+<h3>npm start</h3>
